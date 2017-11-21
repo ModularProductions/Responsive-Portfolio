@@ -258,10 +258,6 @@ input[type=submit] {
         width: 25%;
     }
 
-    #portfolio ul {
-        padding-left: 0;
-    }
-
     .project {
         width: 100%;
         margin: 0;
@@ -277,7 +273,7 @@ input[type=submit] {
     }
 
     #portfolio li {
-        margin: 0;
+        margin: 0 0 20px 0;
     }
 
     #connect {
