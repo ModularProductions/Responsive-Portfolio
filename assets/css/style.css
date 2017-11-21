@@ -85,7 +85,8 @@ nav li {
 }
 
 #portfolio li {
-    margin: 25px;}
+    margin: 25px;
+    }
 
 .project p {
     display: block;
@@ -117,7 +118,7 @@ footer {
     overflow: auto;
 }
 
-p {
+#about p {
     margin: .5em 0;
 }
 
@@ -214,8 +215,6 @@ input[type=submit] {
         min-width: initial;
     }
 
-    nav ul {margin-left: auto;}
-
     body {
         min-width: 400px;
     }
@@ -239,8 +238,8 @@ input[type=submit] {
         min-width: initial;
     }
 
-    body {
-        min-width: 400px;
+    #wrap {
+        width: 100%;
     }
 
     #main-content {
@@ -255,13 +254,30 @@ input[type=submit] {
         text-align: center;        
     }
 
+    nav li {
+        width: 25%;
+    }
+
+    #portfolio ul {
+        padding-left: 0;
+    }
+
     .project {
-        width: 90%;
+        width: 100%;
         margin: 0;
     }
 
-    nav li {
-        width: 25%;
+    .project img {
+        width: 100%;
+    }
+
+    #portfolio p {
+        width: 90%;
+        height: 50px;
+    }
+
+    #portfolio li {
+        margin: 0;
     }
 
     #connect {
