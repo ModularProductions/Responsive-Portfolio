@@ -242,6 +242,14 @@ input[type=submit] {
         width: 100%;
     }
 
+    header {
+        height: 7em;
+    }
+
+    #header-content {
+        padding: 0;
+    }
+
     #main-content {
         padding: 0 20px 70px;
     }
@@ -268,7 +276,7 @@ input[type=submit] {
     }
 
     #portfolio p {
-        width: 84%;
+        width: 83.5%;
         height: 50px;
     }
 
@@ -281,7 +289,8 @@ input[type=submit] {
         text-align: initial;
     }
 
-    h1 {text-align: center;
+    h1 {
+        text-align: center;
         width: 100%;
     }
 }
