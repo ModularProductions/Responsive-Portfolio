@@ -17,8 +17,8 @@ body {
 
 #wrap { /* sticky */
     min-height: 100%;
-    padding-bottom: 20px;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 #main-content {
@@ -39,6 +39,7 @@ header {
     background-color: #fff;
     margin-bottom: 20px;
     min-width: 960px;
+    height: 70px;
 }
 
 #header-content {
@@ -71,7 +72,7 @@ nav li {
 #about img {
     float: left;
     margin: 0 20px 20px 0;
-    width: 250px;
+    width: 50%;
 }
 
 #contact {
@@ -86,6 +87,7 @@ nav li {
 
 #portfolio li {
     margin: 25px;
+    position: relative;
     }
 
 .project p {
@@ -138,6 +140,7 @@ li {
 
 h1 {
     padding: 20px;
+    height: 70px;
     width: 9em;
     text-align: center;
     margin-bottom: 0;
@@ -182,22 +185,29 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-    #main-content, #about, #about img, #connect, #portfolio, #contact, footer {
-        width: 100%;
-        min-width: initial;
-    }
 
-    #wrap {
-        width: 600px;
+    /* mainbar width,
+        float connect to right;
+        projects in single column,
+        footer centering,
+        about pic width */
+        
+    #main-content {
+        width: 100%;
     }
     
+    #connect, #wrap, #about, #portfolio, #contact, footer, #header-content {
+        width: 640px;
+    }
+
     #header-content {
+        width: 600px;
         padding: 0 20px;
         float: left;
     }
 
     #main-content {
-        padding: 0 20px 70px;
+        padding: 0 20px;
     }
 
     #connect {
@@ -207,31 +217,31 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
 
-    /* can't get nav to slide into line,
-        can't get projects to center */
+    /*  projects need placement work */
     
-     #main-content, #about, #connect, #portfolio, #contact, footer {
-        width: 100%;
-        min-width: initial;
+     #main-content, #about, #connect, #portfolio, #contact, footer, #connect {
+        width: 620px;
+        min-width: 620px;
     }
-
-    body {
-        min-width: 400px;
-    }
-
+    
     #main-content {
-        padding: 0 20px 70px;
+        padding: 0 20px;
     }
 
     #connect {
         margin: 20px 0;
         text-align: initial;
     }
+
+    footer {
+        min-width: 640px;
+    }
 }
 
 @media screen and (max-width: 640px) {
 
-    /* portfolio projects not scaling well */
+    /* project <p> not correct width,
+         why static header? */
 
     header, #header-content, #main-content, #about, #about img, #connect, #portfolio, #contact, footer {
         width: 100%;
@@ -243,7 +253,7 @@ input[type=submit] {
     }
 
     header {
-        height: 7em;
+        height: 140px;
     }
 
     #header-content {
@@ -259,7 +269,8 @@ input[type=submit] {
         left: 0;
         top: 0;
         width: 100%;    
-        text-align: center;        
+        text-align: center;
+        padding: 10px;      
     }
 
     nav li {
@@ -275,9 +286,9 @@ input[type=submit] {
         width: 100%;
     }
 
-    #portfolio p {
-        width: 83.5%;
+    .project p {
         height: 50px;
+        width: 100%;
     }
 
     #portfolio li {
