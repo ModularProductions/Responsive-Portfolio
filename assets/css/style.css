@@ -17,7 +17,6 @@ body {
 
 #wrap { /* sticky */
     min-height: 100%;
-    width: 100%;
     padding-bottom: 20px;
 }
 
@@ -182,7 +181,7 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
     header {
-        min-width: 768px;
+        min-width: initial;
     }
 
     #header-content {
@@ -232,7 +231,7 @@ input[type=submit] {
     }
 
     header {
-        min-width: 640px;
+        min-width: initial;
     }
     
     footer {
