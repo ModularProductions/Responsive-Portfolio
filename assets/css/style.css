@@ -38,9 +38,8 @@ header {
 
 nav {
     position: absolute;
-    top: 10px;
+    top: 12px;
     right: 0px;
-    padding-right: 0;
 }
 
 ul {
@@ -49,7 +48,7 @@ ul {
 
 nav li {
     text-align: center;
-    margin: 10px;
+    margin: 10px 0 0 10px;
 }
 
 #main-content {
@@ -129,6 +128,7 @@ a:hover {
 li {
     list-style: none;
     display: inline-block;
+    padding: 0 10px;
 }
 
 h1 {
@@ -187,7 +187,7 @@ input[type=submit] {
     }
 
     nav {
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
     #main-content {
@@ -241,7 +241,7 @@ input[type=submit] {
     }
 
     nav {
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
     #main-content {
