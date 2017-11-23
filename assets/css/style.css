@@ -282,12 +282,7 @@ input[type=submit] {
 
 /* why static header? */
 @media screen and (max-width: 640px) {
-    header, #header-content, #main-content, #about, #about img, #connect, #portfolio, #contact, footer {
-        width: 100%;
-        min-width: initial;
-    }
-
-    #wrap {
+    #about img {
         width: 100%;
     }
 
@@ -295,17 +290,8 @@ input[type=submit] {
         height: 140px;
     }
 
-    #header-content {
-        padding: 0;
-    }
-
-    #main-content {
-        padding: 0 20px 70px;
-    }
-
     nav {
         position: relative;
-        left: 0;
         top: 0;
         width: 100%;    
         text-align: center;
@@ -314,14 +300,10 @@ input[type=submit] {
 
     nav li {
         width: 25%;
+        margin-left: 0;
     }
 
     .project {
-        width: 100%;
-        margin: 0;
-    }
-
-    .project img {
         width: 100%;
     }
 
