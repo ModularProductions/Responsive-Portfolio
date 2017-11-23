@@ -83,7 +83,7 @@ nav li {
 }
 
 #portfolio li {
-    margin: 25px;
+    margin: 20px;
     position: relative;
     }
 
@@ -102,6 +102,10 @@ nav li {
     width: 270px;
     text-align: center;
     float: right;
+}
+
+#connect li {
+    padding: 0 10px;
 }
 
 footer {
@@ -128,7 +132,6 @@ a:hover {
 li {
     list-style: none;
     display: inline-block;
-    padding: 0 10px;
 }
 
 h1 {
