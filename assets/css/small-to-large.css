@@ -1,11 +1,9 @@
-/* small-to-large styling */
-
 * {
     box-sizing: inherit;       
 }
 
 html, body {
-    height: 100%; /* sticky */
+    height: 100%;
     box-sizing: border-box;
 }
 
@@ -76,7 +74,7 @@ input[type=submit] {
     font-size: medium;
 }
 
-#wrap { /* sticky */
+#wrap {
     min-height: 100%;
 }
 
@@ -107,7 +105,7 @@ nav li {
 }
 
 #main-content {
-    padding: 0 20px 70px; /* sticky */
+    padding: 0 20px 70px;
 }
 
 section {
@@ -152,16 +150,15 @@ section {
 
 footer {
     line-height: 66px;
-    height: 70px; /* sticky */
+    height: 70px;
     border-top: solid 4px #4aaaa5;
     background-color: #666;
     font-size: small;
     color: #bbb;
     text-align: center;
     overflow: hidden;
-    margin-top: -70px; /* sticky */
+    margin-top: -70px;
 }
-
 
 @media screen and (min-width: 640px) {
     header {
